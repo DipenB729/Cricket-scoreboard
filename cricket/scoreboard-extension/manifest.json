@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Live Scoreboard Overlay",
+  "version": "1.0",
+  "description": "Show live scoreboard overlay on YouTube and other sites.",
+  "permissions": ["storage"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*", "<all_urls>"],
+      "css": ["overlay.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

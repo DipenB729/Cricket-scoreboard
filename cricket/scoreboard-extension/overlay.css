@@ -1,0 +1,21 @@
+#scoreboard-overlay {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 999999;
+  font-size: 12px;
+}
+
+#scoreboard-overlay table {
+  border-collapse: collapse;
+}
+
+#scoreboard-overlay th,
+#scoreboard-overlay td {
+  border: 1px solid #ccc;
+  padding: 4px 6px;
+}
